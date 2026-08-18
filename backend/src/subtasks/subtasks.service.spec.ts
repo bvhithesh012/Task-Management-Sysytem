@@ -1,0 +1,25 @@
+import { Test, TestingModule } from '@nestjs/testing';
+import { SubtasksService } from './subtasks.service';
+import { PrismaService } from '../prisma/prisma.service';
+
+describe('SubtasksService', () => {
+  let service: SubtasksService;
+
+  beforeEach(async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      providers: [
+        SubtasksService,
+        {
+          provide: PrismaService,
+          useValue: {},
+        },
+      ],
+    }).compile();
+
+    service = module.get<SubtasksService>(SubtasksService);
+  });
+
+  it('should be defined', () => {
+    expect(service).toBeDefined();
+  });
+});
