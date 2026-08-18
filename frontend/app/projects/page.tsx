@@ -33,7 +33,7 @@ type Task = {
   projectId?: string | null;
 };
 
-const API_URL = "http://127.0.0.1:4000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 const priorityClass: Record<string, string> = {
   URGENT: "bg-red-50 text-red-700",
