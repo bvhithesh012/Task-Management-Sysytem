@@ -9,10 +9,10 @@ The application provides a responsive task management experience with task, proj
 ## Live Demo
 
 **Live Application:**  
-`ADD_DEPLOYED_FRONTEND_URL_HERE`
+`https://task-management-sysytem-ptg5mev0x-bvhithesh012s-projects.vercel.app/`
 
 **Backend API:**  
-`ADD_DEPLOYED_BACKEND_URL_HERE`
+`https://task-management-backend-sw8r.onrender.com`
 
 > The deployed application is intended to remain publicly accessible for the required assessment review period.
 
